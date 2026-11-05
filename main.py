@@ -423,7 +423,7 @@ Jeux de NYM, 13 ou 15 batonnets, les joueurs ont le droit d'en prendre 1 , 2 ou 
 #
 #             batonnets -= choix_joueur
 #             if batonnets == 0:
-#                 print("Bravo, vous avez pris le dernier bâtonnet ! Vous avez gagné 🎉")
+#                 print("Bravo, vous avez pris le dernier bâtonnet ! Vous avez gagné")
 #                 break
 #
 #             tour_joueur = False
@@ -434,7 +434,7 @@ Jeux de NYM, 13 ou 15 batonnets, les joueurs ont le droit d'en prendre 1 , 2 ou 
 #             print(f"L'ordinateur prend {choix_ia} bâtonnet(s). Il en reste {batonnets}.\n")
 #
 #             if batonnets == 0:
-#                 print("L'ordinateur a pris le dernier bâtonnet. L'ordinateur a gagné 🤖")
+#                 print("L'ordinateur a pris le dernier bâtonnet. L'ordinateur a gagné")
 #                 break
 #
 #             tour_joueur = True
